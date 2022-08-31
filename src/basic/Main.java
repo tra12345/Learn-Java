@@ -1,19 +1,14 @@
-package basic;
-
-public class Main {
-	int n;
-	public Main(int nn) {
-//		n = 6;
-		n = nn;
-	}
-	public void myTest1() {
-		int x = 5;
-		int y = 7;
-		System.out.println(x + y);
-	}
-	static void myTest2() {
-		System.out.println("Hello wword");
-	}
-//	private String fname = "John";
+	package basic;
 	
-}
+	public class Main {
+		public static void main(String[] args) {
+			Person resutl = new Person(8);
+			System.out.println(resutl.n);
+			resutl.myTest1();
+			
+	//		Example Encapsulation
+			resutl.setName("John", 10);
+		    System.out.println(resutl.getName());
+		    System.out.println(resutl.getAge());
+		}
+	}
