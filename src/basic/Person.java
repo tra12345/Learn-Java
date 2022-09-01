@@ -32,5 +32,7 @@
 		public void setName(String newName, int age) {
 			this.name = newName;
 			this.age = age;
-		}
+		}	
+//		protected String fname = "John";
+//		protected String lname = "Doe";
 	}
