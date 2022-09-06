@@ -12,14 +12,14 @@ class Interface {
 
 }
 
-interface Animal {
+interface Animal1 {
 	public void animalSound(); // interface method (does not have a body)
 
 	public void sleep(); // interface method (does not have a body)
 }
 
 // Pig "implements" the Animal interface
-class Pig1 implements Animal {
+class Pig1 implements Animal1 {
 	public void animalSound() {
 		// The body of animalSound() is provided here
 		System.out.println("The pig says: wee wee");
